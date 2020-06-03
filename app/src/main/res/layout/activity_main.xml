@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ticket"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC"
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:padding="30dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/background_ticket"
+          android:orientation="vertical">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="75dp"
+              android:background="@drawable/background_header">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:text="TICKET"
+                  android:textAlignment="center"
+                  android:textColor="@android:color/white"
+                  android:textSize="36sp"
+                  android:textStyle="bold"/>
+
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:padding="20dp">
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Hongkong"
+                      android:textSize="12sp"
+                      android:textAlignment="center"/>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:text="HKG"
+                      android:textAlignment="center"
+                      android:textSize="25sp"
+                      android:textStyle="bold"/>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:text="04:05 pm"
+                      android:textSize="12sp"
+                      android:textAlignment="center"/>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:text="Mon, 23 Mar 2020"
+                      android:textSize="12sp"
+                      android:textAlignment="center"/>
+
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.5"
+                  android:orientation="vertical">
+
+                  <ImageView
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_marginTop="40dp"
+                      android:src="@drawable/ic_local_airport_gray"/>
+
+              </LinearLayout>
+
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="vertical">
+
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Bandung"
+                      android:textSize="12sp"
+                      android:textAlignment="center"/>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:text="BDG"
+                      android:textAlignment="center"
+                      android:textSize="25sp"
+                      android:textStyle="bold"/>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:text="06:50 pm"
+                      android:textSize="12sp"
+                      android:textAlignment="center"/>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:text="Mon, 23 Mar 2020"
+                      android:textSize="12sp"
+                      android:textAlignment="center"/>
+
+
+
+              </LinearLayout>
+
+
+          </LinearLayout>
+
+
+
+      </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/background_ticket"
+          android:orientation="vertical"
+          android:padding="20dp">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="PASSENGER"
+                      android:textSize="12sp"/>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:text="Eddy Putri"
+                      android:textSize="16sp"/>
+
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="SEAT"
+                      android:textAlignment="textEnd"
+                      android:textSize="12sp"/>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:text="7A"
+                      android:textAlignment="textEnd"
+                      android:textSize="16sp"/>
+
+
+
+              </LinearLayout>
+
+
+          </LinearLayout>
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+              android:orientation="horizontal">
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="FLIGHT"
+                      android:textAlignment="textStart"
+                      android:textSize="12sp"/>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:text="SMI 230300"
+                      android:textAlignment="textStart"
+                      android:textSize="16sp"/>
+
+              </LinearLayout>
+
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="GATE"
+                      android:textAlignment="center"
+                      android:textSize="12sp"/>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:text="5R"
+                      android:textAlignment="center"
+                      android:textSize="16sp"/>
+
+
+
+              </LinearLayout>
+
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:orientation="vertical">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="BOARDING"
+                      android:textAlignment="textEnd"
+                      android:textSize="12sp"/>
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:text="03:30 PM"
+                      android:textAlignment="textEnd"
+                      android:textSize="16sp"/>
+
+
+              </LinearLayout>
+
+          </LinearLayout>
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="70dp"
+              android:layout_marginTop="15dp"
+              android:background="#F3F3F3"
+              android:padding="10dp"
+              android:src="@drawable/barcode"/>
+
+
+      </LinearLayout>
+
+
+      <Button
+          android:id="@+id/btn_print"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:background="@color/colorPrimary"
+          android:text="Print"
+          android:textColor="@android:color/white"
+          android:textSize="18sp"/>
+
+
+
+  </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
